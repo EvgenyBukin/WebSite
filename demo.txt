@@ -1,0 +1,28 @@
+		<div class="general-content">
+			<header class="header">
+				<h1 class="site-logo">Demo</h1>
+				<h2 class="site-description">Site Description</h2>
+				<nav>
+					<div class="main-nav">
+						<div>
+							<a href="#">Home</a>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<main role="main" class="content">
+				<section>
+					<article class="post">
+						blog post
+					</article>
+				</section>
+			</main>
+			<aside class="sidebar">
+				<section class="widget">
+					widget
+				</section>
+			</aside>
+			<footer class="footer">
+				footer
+			</footer>
+		</div>

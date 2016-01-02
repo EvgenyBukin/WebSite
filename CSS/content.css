@@ -1,0 +1,471 @@
+/*
+======================
+BASUIC STYLES
+======================
+*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+	display: block;
+}
+
+body
+{
+	width: 100%;
+	background: #000;
+	background-image: url(../content/touhou.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.general-content
+{
+	width: 1280px;
+	margin: 0 auto;
+	margin-left: 0;
+}
+
+.header
+{
+	height: 272px;
+	background: url(../content/ImagesLog04_04.png) no-repeat;
+	background-size: 1280px 272px;
+
+}
+
+nav
+{
+	height: 40px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+}
+
+.content
+{
+	position: relative;
+	width: 850px;
+	min-width: 350px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar
+{
+	width: 280px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 10px;
+	background: rgba(216, 48, 44, 1);
+	border-radius: 8px;
+}
+
+.footer
+{
+	clear: both;
+	background: #434855;
+	width: 850px;
+	height: 100px;
+}
+
+.wrap
+{
+	float: right;
+	height: 272px;
+	width: 40px;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+}
+
+.logWebsite
+{
+	float: left;
+	margin-left: 100px;
+	background: url(../content/logWebsite.png) no-repeat;
+    background-size: 270px 270px;
+    width: 270px;
+    height: 270px;
+}
+
+/*
+======================
+IMG
+======================
+*/
+
+img
+{
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+/*ruby_rose*/
+.post-news-container-log img
+{
+	width: 150px;
+	height: 200px;
+	margin: -70px 0 0 -80px;
+	position: absolute;
+}
+/*weiss*/
+.post-review-container-log img
+{
+	width: 150px;
+	height: 200px;
+	margin: -70px 0 0 -80px;
+	position: absolute;
+}
+
+/*
+======================
+NAV
+======================
+*/
+
+.main-nav
+{
+	line-height: 35px;
+	margin-left: 20px;
+}
+
+.main-nav div
+{
+	display: inline-block;
+}
+
+.main-nav a
+{
+	position: relative;
+	z-index: 100;
+	font-weight: bold;
+	color: #fff;
+	padding: 14px 30px;
+	text-decoration: none;
+	border-radius: 25px 0 25px 0;
+}
+
+.main-nav a:hover
+{
+	transition: 3s;
+	transition: opacity 0.3s, linear 0.3s;
+	color: #fff;
+	background: #474747;
+	background: linear-gradient(-90deg, #000, #393939);
+	box-shadow: 0 0 5px #E5A09A, 0 0 5px #F70000, 0 0 20px #A93331, 0 0 30px #B86D6D;
+}
+
+.search-bar
+{
+	float: right;
+	margin-right: 300px;
+}
+
+.search-bar input:nth-child(1)
+{
+	background: rgb(68, 85, 102);
+}
+
+.search-bar input:nth-child(2)
+{
+	vertical-align: bottom;
+	padding: 0;
+}
+
+/*
+======================
+MAIN/NEWS
+======================
+*/
+
+.post-news-container-log
+{
+	display: block !important;
+}
+
+.post-news-container-img
+{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.post-news-log
+{
+	vertical-align: middle;
+	line-height: 55px;
+	background: rgba(216, 48, 44, .7);
+	width: 65%;
+	height: 55px;
+	border-radius: 0 0 50px 0;
+}
+
+.post-news-log span
+{
+	vertical-align: baseline;
+	margin-left: 80px;
+	font-size: 1.25em;
+	cursor: default;
+	color: rgba(255, 255, 255, 1);
+}
+
+.item
+{
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+}
+
+.item-title
+{
+	position: absolute;
+	width: 250px;
+	display: block;
+	bottom: 15px;
+	color: #fff;
+	font: 20px/25px Tahoma, sans-serif;
+	cursor: default;
+	padding-top: 241px;
+}
+
+.item-title:hover
+{
+	transition: all 200ms ease 0ms;
+	color: rgba(0, 188, 255, 1);
+}
+
+.item-img {
+	width: 250px;
+	height: 300px;
+	background-size: 250px 300px;
+}
+
+.item-img:after
+{
+	display: block !important;
+	content: '';
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 80%);
+}
+
+.item:nth-child(1) .item-img {
+	background-image: url('../content/rwby.png');
+}
+
+.item:nth-child(2) .item-img {
+	background-image: url('../content/full_metal_panic.png');
+}
+
+.item:nth-child(3) .item-img {
+	background-image: url('../content/active_raid.png');
+}
+
+.item:nth-child(4) .item-img {
+	background-image: url('../content/tokyo_ghoul.png');
+}
+
+.item:nth-child(5) .item-img {
+	background-image: url('../content/undefeated_bahamut_chronicle.png');
+}
+
+.item:nth-child(6) .item-img {
+	background-image: url('../content/kizumonogatari.png');
+}
+
+/*
+======================
+MAIN/REVIEW
+======================
+*/
+.post-review
+{
+	padding-top: 10px;
+}
+
+.post-review-log
+{
+	vertical-align: middle;
+	line-height: 55px;
+	background: linear-gradient(to bottom, rgba(172, 191, 234, .5), rgba(0, 0, 0, 0.6));
+	width: 65%;
+	height: 55px;
+	border-radius: 0 0 50px 0;
+}
+
+.post-review-log span
+{
+	vertical-align: baseline;
+	margin-left: 80px;
+	font-size: 1.70em;
+	cursor: default;
+	color: rgb(236, 238, 249);
+}
+
+.post-review-container-block
+{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.review
+{
+	margin-bottom: 10px;
+	margin-right: 50px;
+	float: right;
+	cursor: pointer;
+}
+
+.review
+{
+	border-radius: 25px 10px 100px 8px;
+}
+
+.review img
+{
+	float: right;
+	border-radius: 18px 6px 84px 4px;
+	width: 650px;
+	height: 100px;
+	background: #434855;
+	border: solid rgba(0, 0, 0, .8);
+	border-width: 2px;
+}
+
+.hiddenPanel
+{
+	position: relative;
+	display: none;
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	width: 600px;
+	background: rgba(0, 0, 0, .8);
+	border-radius: 0 0 0 25px;
+}
+
+.hiddenPanel-content
+{
+	display: inline-block;
+	margin-left: 8px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.hiddenPanel-img
+{
+	width: 185px;
+	height: 235px;
+	background-size: 185px 235px;
+	border: solid #909090;
+	border-width: 1px;
+}
+
+.hiddenPanel-content:nth-child(1) .hiddenPanel-img {
+	background-image: url('../content/aldnoah_zero.png');
+}
+
+.hiddenPanel-content:nth-child(2) .hiddenPanel-img {
+	background-image: url('../content/Fullmetal_Alchemist.png');
+}
+
+.hiddenPanel-content:nth-child(3) .hiddenPanel-img {
+	background-image: url('../content/Zetsuen_no_Tempest.png');
+}
+
+.hiddenPanel-content:hover .hiddenPanel-content-caption
+{
+	color: #000;
+}
+
+.hiddenPanel-content-caption
+{
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	text-overflow: ellipsis;
+	display: block;
+	background: linear-gradient(to bottom, rgb(67, 67, 67), rgb(132, 162, 183));
+	box-shadow: 0 2px 10px #6C75B3, 0 0 5px #ACBFEA;
+	cursor: pointer;
+}
+
+.svg
+{
+	display: inline-block;
+	position: absolute;
+	height: 100px;
+	right: 400px;
+	background: transparent;
+	width: 0px;
+	overflow: hidden;
+}
+
+.svg span
+{
+	font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Helvetica;
+}
+
+.hiddenPanel-text
+{
+	display: inline-block;
+	position: absolute;
+	height: 100px;
+	pointer-events: none;
+}
+
+.hiddenPanel-iqon1
+{
+	float: left;
+	position: absolute;
+	background-image: url('../content/iqon1.png');
+	background-size: 80px 80px;
+	width: 80px;
+	height: 80px;
+	pointer-events: none;
+	margin-top: 15px;
+}
+
+.hiddenPanel-visualOverlay
+{
+	width: 600px;
+	height: 50px;
+	background-image: linear-gradient(to bottom, rgba(172, 191, 234, .5), rgba(142, 142, 142, 0));
+	border-radius: 0 0 0 25px;
+}
+
+.button-explicitly
+{
+	width: 100px;
+	height: 40px;
+	background: #445566;
+	border-radius: 10px;
+	border: solid #fff;
+	border-width: 1px;
+	float: right;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+/*
+======================
+FOOTER
+======================
+*/
+
+.footer
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 100px;
+	border-radius: 8px;
+}
