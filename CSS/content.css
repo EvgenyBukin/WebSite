@@ -67,7 +67,7 @@ nav
 .footer
 {
 	clear: both;
-	background: #434855;
+	background: linear-gradient(to bottom, rgba(17, 15, 30, .7), rgba(22, 22, 19, .8));
 	width: 850px;
 	height: 100px;
 }
@@ -245,7 +245,7 @@ MAIN/NEWS
 
 .item-title:hover
 {
-	transition: all 200ms ease 0ms;
+	transition: all 400ms ease 0ms;
 	color: rgba(0, 188, 255, 1);
 }
 
@@ -601,6 +601,26 @@ MAIN/HEADING/ICONSTYLE
 	perspective: 500px;
 }
 
+.view .captionView
+{
+	color: #fff;
+	/*color: rgba(0, 188, 255, 1);*/
+	font-size: 25px;
+	position: absolute;
+	z-index: 1;
+	right: 5px;
+	transition: .8s;
+	/*text-shadow: 0 0 10px #0D0D0D, 0 0 10px #000000, 0 0 30px #2D1738, 0 0 30px #3E2643;*/
+	text-shadow: 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 3px 2px 8px rgba(0, 0, 0, 1);
+}
+
+.view:hover .captionView
+{
+	opacity: 0;
+	transition-duration: 500ms;
+	transform: translateX(-60px);
+}
+
 .view .slice
 {
 	width: 40px;
@@ -608,8 +628,7 @@ MAIN/HEADING/ICONSTYLE
 	z-index: 100;
 	transform-style: preserve-3d;
 	transform-origin: left center;
-	transition: transform 150ms ease-in-out;
-		
+	transition: transform 150ms ease-in-out;		
 }
 
 .view div.view-back
@@ -634,22 +653,17 @@ MAIN/HEADING/ICONSTYLE
 	width: 30px;
 	height: 30px;
 	line-height: 22px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 7px;
+	font-size: 30px;
+	
 }
 
 .view-back a:hover
 {
 	color: #fff;
 	border-color: #fff;
-}
-
-.view-back span[data-icon]:before
-{
-	content: attr(data-icon);
-	font-family: 'icons';
-	color: #aaa;
-	color: rgba(255,255,255,0.2);
-	text-shadow: 0 0 1px rgba(255,255,255,0.2);
-	padding-right: 5px;
 }
 
 .view .s2, 
@@ -710,5 +724,70 @@ FOOTER
 	display: inline-block;
 	margin-top: 10px;
 	margin-left: 100px;
-	border-radius: 8px;
+	border-radius: 0 0 8px 8px;
+}
+
+.footerModule1
+{
+	width: 98px;
+	height: 64px;
+	margin-top: 18px;
+	margin-left: 20px;
+	cursor: default;
+}
+
+.footerIqon
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../content/IqonSocialNetwork.png');
+	background-size: 196px 30px;
+}
+
+.footerIqon:hover
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../content/IqonSocialNetwork1.png');
+	background-size: 196px 30px;
+}
+
+.footerIqon:nth-child(1)
+{
+	background-position: 0px 0;
+}
+
+.footerIqon:nth-child(2)
+{
+	background-position: -33px 0;
+}
+
+.footerIqon:nth-child(3)
+{
+	background-position: -66px 0;
+}
+
+.footerIqon:nth-child(4)
+{
+	background-position: -99px 0;
+}
+
+.footerIqon:nth-child(5)
+{
+	background-position: -133px 0;
+}
+
+.footerIqon:nth-child(6)
+{
+	background-position: -166px 0;
+}
+
+.footerModule2 span
+{
+	float: right;
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
 }
