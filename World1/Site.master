@@ -1,0 +1,271 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Styles/content.css" />
+		<link rel="stylesheet" type="text/css" href="Styles/media-queries.css" />
+		<link rel="stylesheet" type="text/css" href="Styles/contentStyle.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" src="Scripts/style.js"></script>
+		<script type="text/javascript" src="Scripts/modernizr.custom.69142.js"></script>
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="general-content">
+			<header class="header">
+				<div class="logWebsite"></div>
+				<div class="wrap"></div>
+			</header>
+			<nav>
+				<div class="main-nav">
+					<div>
+						<a href="#">Главная</a>
+						<a href="#">Новости</a>
+						<a href="#">Галерея</a>
+					</div>
+					<div class="search-bar">
+						<form method="get" action="C:/Users/Gelion/Desktop/учеба/WORK/webSite/MainPage.html" target="_self">
+							<input name="q" id="form-query" value="" placeholder="поиск по сайту">
+							<input src="http://3.bp.blogspot.com/-4w14hQHr5yQ/Tgm6u7KwUkI/AAAAAAAACAI/Hu2poBOPx3g/s1600/search.png" type="image">
+						</form>
+					</div>
+				</div>
+			</nav>
+			<main role="main" class="content">
+				<section>
+					<article class="post-news">
+						<div class="post-news-container-log">
+							<a name="news"></a>
+							<img title="Ruby Rose" src="content/ruby_rose.png" alt="">
+							<div class="post-news-log">
+								<span>Новости</span>
+							</div>
+						</div>
+						<div class="post-news-container-img">
+							<div class="item">
+								<div class="item-img"></div>
+								<span class="item-title">Официальный трейлер третьего сезона RWBY</span>
+							</div>
+							<div class="item">
+								<div class="item-img"></div>
+								<span class="item-title">Новое аниме по ранобэ Full Metal Panic!</span>
+							</div>
+							<div class="item">
+								<div class="item-img"></div>
+								<span class="item-title">Промо-ролик аниме Active Raid</span>
+							</div>
+							<div class="item">
+								<div class="item-img"></div>
+								<span class="item-title">Третий сезон Tokyo Ghoul</span>
+							</div>
+							<div class="item">
+								<div class="item-img"></div>
+								<span class="item-title">Аниме по Undefeated Bahamut Chronicle</span>
+							</div>
+							<div class="item">
+								<div class="item-img"></div>
+								<span class="item-title">Трейлер и дата выхода Kizumonogatari</span>
+							</div>
+						</div>
+					</article>
+					<article class="post-review">
+						<div class="post-review-container-log">
+							<a name="review"></a>
+							<img title="Weiss" src="content/weiss.png" alt="">
+							<div class="post-review-log">
+								<span>Обзор</span>
+							</div>
+						</div>
+						<div class="post-review-container-block">
+							<div class="review" data-section="Аниме сериалы">
+								<div class="hiddenPanel-text"></div>
+								<img src="content/anime3.png" alt="">
+								<div class="hiddenPanel-iqon1"></div>
+							</div>
+							<div class="hiddenPanel" data-visible="hidden">
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Aldnoah zero">Aldnoah zero</span>
+								</div>
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Fullmetal Alchemist">Fullmetal Alchemist</span>
+								</div>
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Zetsuen no tempest">Zetsuen no tempest</span>
+								</div>	
+								<div class="button-explicitly">
+									<a href="#">Подробнее</a>
+								</div>
+								<div class="hiddenPanel-visualOverlay"></div>
+							</div>
+							<div class="review" data-section="Полнометражный фильм аниме">
+								<div class="hiddenPanel-text"></div>
+								<img src="content/art_movie.png" alt="">
+								<div class="hiddenPanel-iqon1"></div>
+							</div>
+							<div class="hiddenPanel" data-visible="hidden">
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Gekijouban Hagane no Renkinjutsushi: Shambala o Yuku Mono">Gekijouban Hagane no Renkinjutsushi: Shambala o Yuku Mono</span>
+								</div>
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Psycho-Pass">Psycho-Pass</span>
+								</div>
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Steins;Gate: Fuka Ryouiki no Dejà vu">Steins;Gate: Fuka Ryouiki no Dejà vu</span>
+								</div>	
+								<div class="button-explicitly">
+									<a href="#">Подробнее</a>
+								</div>
+								<div class="hiddenPanel-visualOverlay"></div>
+							</div>
+							<div class="review" data-section="Манга">
+								<div class="hiddenPanel-text"></div>
+								<img src="content/art_manga.png" alt="">
+								<div class="hiddenPanel-iqon1"></div>
+							</div>
+							<div class="hiddenPanel" data-visible="hidden">
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Akame ga KILL!">Akame ga KILL!</span>
+								</div>
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="Lessa the Crimson Knight">Lessa the Crimson Knight</span>
+								</div>
+								<div class="hiddenPanel-content">
+									<div class="hiddenPanel-img"></div>
+									<span class="hiddenPanel-content-caption" title="The Rising of the Shield Hero">The Rising of the Shield Hero</span>
+								</div>	
+								<div class="button-explicitly">
+									<a href="#">Подробнее</a>
+								</div>
+								<div class="hiddenPanel-visualOverlay"></div>
+							</div>
+						</div>
+					</article>
+					<article class="post-heading">
+						<div class="post-heading-container-log">
+							<a name="heading"></a>
+							<img title="Blake Belladonna" src="content/blake_belladonna.png" alt="">
+							<div class="post-heading-log">
+								<span>Рубрики</span>
+							</div>
+						</div>
+						<div class="post-heading-container-block">
+							<div id="grid" class="main">
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/AnimeTV.png" />
+									<span class="captionView">АнимеTV</span>
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/manga.png" />
+									<span class="captionView">Манга</span>
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/animeART.png" />
+									<span class="captionView">АнимеART</span>
+
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/animeAMV.png" />
+									<span class="captionView">AMV</span>
+
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/animeTop.png" />
+									<span class="captionView">TopАниме</span>
+
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/blog.png" />
+									<span class="captionView">Блоги</span>
+
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/animeMusic.png" />
+									<span class="captionView">AnimeMusic</span>
+
+								</div>
+								<div class="view">
+									<div class="view-back">
+										<a href="#">></a>
+									</div>
+									<img src="content/animeGames.png" />
+									<span class="captionView">AnimeGames</span>
+
+								</div>
+							</div>
+							<script type="text/javascript">	
+								
+								Modernizr.load({
+									test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+									yep: ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', 'Scripts/jquery.hoverfold.js'],
+									nope: 'css/fallback.css',
+									callback : function( url, result, key ) {
+											
+									    if (url === 'Scripts/jquery.hoverfold.js') {
+											$( '#grid' ).hoverfold();
+										}
+
+									}
+								});
+							</script>
+						</div>
+					</article>
+				</section>
+			</main>
+			<aside class="sidebar">
+				<section class="widget">
+					<div class="widget-module"></div>
+				</section>
+			</aside>
+			<footer class="footer">
+				<div class="footerModule1">
+					<a href="#" class="footerIqon"></a>
+					<a href="#" class="footerIqon"></a>
+					<a href="#" class="footerIqon"></a>
+					<a href="#" class="footerIqon"></a>
+					<a href="#" class="footerIqon"></a>
+					<a href="#" class="footerIqon"></a>
+				</div>
+				<div class="footerModule2">
+					<span>Demo version of the website. Forbidden to be copied.</span>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

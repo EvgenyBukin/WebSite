@@ -59,8 +59,8 @@ nav
 	width: 280px;
 	float: right;
 	margin-top: 50px;
-	margin-right: 10px;
-	background: rgba(216, 48, 44, 1);
+	margin-right: 25px;
+	background: rgba(216, 48, 44, .7);
 	border-radius: 8px;
 }
 
@@ -790,4 +790,21 @@ FOOTER
 	color: #fff;
 	font-family: arial;
 	font-size: 12px;
+}
+
+/*
+======================
+WIDGET
+======================
+*/
+
+.widget-module
+{
+	width: 250px;
+	height: 420px;
+	background: #fff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
 }

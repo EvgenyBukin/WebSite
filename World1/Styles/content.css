@@ -1,0 +1,810 @@
+/*
+======================
+BASUIC STYLES
+======================
+*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+	display: block;
+}
+
+body
+{
+	width: 100%;
+	background: #000;
+	background-image: url(../content/fon1_2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.general-content
+{
+	width: 1280px;
+	margin: 0 auto;
+	margin-left: 0;
+}
+
+.header
+{
+	height: 272px;
+	background: url(../content/ImagesLog04_04.png) no-repeat;
+	background-size: 1280px 272px;
+
+}
+
+nav
+{
+	height: 40px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+}
+
+.content
+{
+	position: relative;
+	width: 850px;
+	min-width: 350px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar
+{
+	width: 280px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 25px;
+	background: rgba(216, 48, 44, .7);
+	border-radius: 8px;
+}
+
+.footer
+{
+	clear: both;
+	background: linear-gradient(to bottom, rgba(17, 15, 30, .7), rgba(22, 22, 19, .8));
+	width: 850px;
+	height: 100px;
+}
+
+.wrap
+{
+	float: right;
+	height: 272px;
+	width: 40px;
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+}
+
+.logWebsite
+{
+	float: left;
+	margin-left: 100px;
+	background: url(../content/logWebsite.png) no-repeat;
+    background-size: 270px 270px;
+    width: 270px;
+    height: 270px;
+}
+
+/*
+======================
+IMG
+======================
+*/
+
+img
+{
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+/*ruby_rose*/
+.post-news-container-log img
+{
+	width: 150px;
+	height: 200px;
+	margin: -70px 0 0 -80px;
+	position: absolute;
+}
+/*weiss*/
+.post-review-container-log img
+{
+	width: 150px;
+	height: 200px;
+	margin: -70px 0 0 -80px;
+	position: absolute;
+}
+
+.post-heading-container-log img
+{
+	width: 150px;
+	height: 200px;
+	margin: -70px 0 0 -80px;
+	position: absolute;
+	z-index: 100;
+	pointer-events: none;
+}
+
+/*
+======================
+NAV
+======================
+*/
+
+.main-nav
+{
+	line-height: 35px;
+	margin-left: 20px;
+}
+
+.main-nav div
+{
+	display: inline-block;
+}
+
+.main-nav a
+{
+	position: relative;
+	z-index: 100;
+	font-weight: bold;
+	color: #fff;
+	padding: 14px 30px;
+	text-decoration: none;
+	border-radius: 25px 0 25px 0;
+}
+
+.main-nav a:hover
+{
+	transition: 3s;
+	transition: opacity 0.3s, linear 0.3s;
+	color: #fff;
+	background: #474747;
+	background: linear-gradient(-90deg, #000, #393939);
+	box-shadow: 0 0 5px #E5A09A, 0 0 5px #F70000, 0 0 20px #A93331, 0 0 30px #B86D6D;
+}
+
+.search-bar
+{
+	float: right;
+	margin-right: 300px;
+}
+
+.search-bar input:nth-child(1)
+{
+	background: rgb(68, 85, 102);
+}
+
+.search-bar input:nth-child(2)
+{
+	vertical-align: bottom;
+	padding: 0;
+}
+
+/*
+======================
+MAIN/NEWS
+======================
+*/
+
+.post-news-container-log
+{
+	display: block !important;
+}
+
+.post-news-container-img
+{
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.post-news-log
+{
+	vertical-align: middle;
+	line-height: 55px;
+	background: rgba(216, 48, 44, .7);
+	width: 65%;
+	height: 55px;
+	border-radius: 0 0 50px 0;
+}
+
+.post-news-log span
+{
+	vertical-align: baseline;
+	margin-left: 80px;
+	font-size: 1.25em;
+	cursor: default;
+	color: rgba(255, 255, 255, 1);
+}
+
+.item
+{
+	display: inline-block;
+	position: relative;
+	width: 250px;
+	height: 300px;
+	text-align: center;
+}
+
+.item-title
+{
+	position: absolute;
+	width: 250px;
+	display: block;
+	bottom: 15px;
+	color: #fff;
+	font: 20px/25px Tahoma, sans-serif;
+	cursor: default;
+	padding-top: 241px;
+}
+
+.item-title:hover
+{
+	transition: all 400ms ease 0ms;
+	color: rgba(0, 188, 255, 1);
+}
+
+.item-img {
+	width: 250px;
+	height: 300px;
+	background-size: 250px 300px;
+}
+
+.item-img:after
+{
+	display: block !important;
+	content: '';
+	position: absolute;
+	width: 250px;
+	height: 300px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.7) 80%);
+}
+
+.item:nth-child(1) .item-img {
+	background-image: url('../content/rwby.png');
+}
+
+.item:nth-child(2) .item-img {
+	background-image: url('../content/full_metal_panic.png');
+}
+
+.item:nth-child(3) .item-img {
+	background-image: url('../content/active_raid.png');
+}
+
+.item:nth-child(4) .item-img {
+	background-image: url('../content/tokyo_ghoul.png');
+}
+
+.item:nth-child(5) .item-img {
+	background-image: url('../content/undefeated_bahamut_chronicle.png');
+}
+
+.item:nth-child(6) .item-img {
+	background-image: url('../content/kizumonogatari.png');
+}
+
+/*
+======================
+MAIN/REVIEW
+======================
+*/
+.post-review
+{
+	padding-top: 10px;
+}
+
+.post-review-log
+{
+	vertical-align: middle;
+	line-height: 55px;
+	background: linear-gradient(to bottom, rgba(172, 191, 234, .5), rgba(0, 0, 0, 0.6));
+	width: 65%;
+	height: 55px;
+	border-radius: 0 0 50px 0;
+}
+
+.post-review-log span
+{
+	vertical-align: baseline;
+	margin-left: 80px;
+	font-size: 1.70em;
+	cursor: default;
+	color: rgb(236, 238, 249);
+}
+
+.post-review-container-block
+{
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.review
+{
+	margin-bottom: 10px;
+	margin-right: 50px;
+	float: right;
+	cursor: pointer;
+}
+
+.review
+{
+	border-radius: 25px 10px 100px 8px;
+}
+
+.review img
+{
+	float: right;
+	border-radius: 18px 6px 84px 4px;
+	width: 650px;
+	height: 100px;
+	background: #434855;
+	border: solid rgba(0, 0, 0, .8);
+	border-width: 2px;
+}
+
+.hiddenPanel
+{
+	position: relative;
+	display: none;
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	width: 600px;
+	background: rgba(0, 0, 0, .8);
+	border-radius: 0 0 0 25px;
+}
+
+.hiddenPanel-content
+{
+	display: inline-block;
+	margin-left: 8px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.hiddenPanel-img
+{
+	width: 185px;
+	height: 235px;
+	background-size: 185px 235px;
+	border: solid #909090;
+	border-width: 1px;
+}
+
+.hiddenPanel-content:nth-child(1) .hiddenPanel-img
+{
+	background-image: url('../content/aldnoah_zero.png');
+}
+
+.hiddenPanel-content:nth-child(2) .hiddenPanel-img
+{
+	background-image: url('../content/Fullmetal_Alchemist.png');
+}
+
+.hiddenPanel-content:nth-child(3) .hiddenPanel-img
+{
+	background-image: url('../content/Zetsuen_no_Tempest.png');
+}
+
+.hiddenPanel:nth-child(4) .hiddenPanel-content:nth-child(1) .hiddenPanel-img
+{
+	background-image: url('../content/Gekijouban-Hagane.png');
+}
+
+.hiddenPanel:nth-child(4) .hiddenPanel-content:nth-child(2) .hiddenPanel-img
+{
+	background-image: url('../content/Psycho-Pass.png');
+}
+
+.hiddenPanel:nth-child(4) .hiddenPanel-content:nth-child(3) .hiddenPanel-img
+{
+	background-image: url('../content/SteinsGate.png');
+}
+
+.hiddenPanel:nth-child(6) .hiddenPanel-content:nth-child(1) .hiddenPanel-img
+{
+	background-image: url('../content/akame-ga-kiru.png');
+}
+
+.hiddenPanel:nth-child(6) .hiddenPanel-content:nth-child(2) .hiddenPanel-img
+{
+	background-image: url('../content/lessa.png');
+}
+
+.hiddenPanel:nth-child(6) .hiddenPanel-content:nth-child(3) .hiddenPanel-img
+{
+	background-image: url('../content/Tate-no-Yuusha-no-Nariagari.png');
+}
+
+.hiddenPanel-content:hover .hiddenPanel-content-caption
+{
+	color: #000;
+}
+
+.hiddenPanel-content-caption
+{
+	color: #fff;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+	background: linear-gradient(to bottom, rgb(67, 67, 67), rgb(132, 162, 183));
+	box-shadow: 0 2px 10px #6C75B3, 0 0 5px #ACBFEA;
+	cursor: pointer;
+	width: 186px;
+	white-space: nowrap;
+}
+
+.svg
+{
+	display: inline-block;
+	position: absolute;
+	height: 100px;
+	right: 400px;
+	background: transparent;
+	width: 0px;
+	overflow: hidden;
+}
+
+.svg span
+{
+	font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Helvetica;
+}
+
+.hiddenPanel-text
+{
+	display: inline-block;
+	position: absolute;
+	height: 100px;
+	pointer-events: none;
+}
+
+.hiddenPanel-iqon1
+{
+	float: left;
+	position: absolute;
+	background-image: url('../content/iqon1.png');
+	background-size: 80px 80px;
+	width: 80px;
+	height: 80px;
+	pointer-events: none;
+	margin-top: 15px;
+}
+
+.hiddenPanel-visualOverlay
+{
+	width: 600px;
+	height: 50px;
+	background-image: linear-gradient(to bottom, rgba(172, 191, 234, .5), rgba(142, 142, 142, 0));
+	border-radius: 0 0 0 25px;
+}
+
+.button-explicitly
+{
+	width: 100px;
+	height: 40px;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom left, rgba(172, 191, 234, .5), rgba(142, 142, 142, 0));
+	border-radius: 10px;
+	border: solid #fff;
+	border-width: 1px;
+	float: right;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+
+.button-explicitly a
+{
+	padding-top: 11px;
+	padding-left: 6px;
+	padding-right: 7px;
+	padding-bottom: 12px;
+	line-height: 40px;
+	text-decoration: none;
+	color: rgba(0, 188, 255, 1);
+	font-family: arial;
+}
+
+.button-explicitly:hover a
+{
+	color: #fff;
+}
+
+/*
+======================
+MAIN/HEADING
+======================
+*/
+.post-heading
+{
+	padding-top: 10px;
+}
+
+.post-heading-log
+{
+	vertical-align: middle;
+	line-height: 55px;
+	background: linear-gradient(to bottom, rgba(22, 22, 19, .8), rgba(17, 15, 30, .7));
+	width: 65%;
+	height: 55px;
+	border-radius: 0 0 50px 0;
+}
+
+.post-heading-log span
+{
+	vertical-align: baseline;
+	margin-left: 80px;
+	font-size: 1.70em;
+	cursor: default;
+	color: rgb(236, 238, 249);
+}
+
+.heading
+{
+	margin-bottom: 10px;
+	margin-right: 50px;
+	float: right;
+	cursor: pointer;
+}
+
+.heading
+{
+	border-radius: 25px 10px 100px 8px;
+}
+
+.heading img
+{
+	float: right;
+	border-radius: 18px 6px 84px 4px;
+	width: 650px;
+	height: 100px;
+	background: #434855;
+	border: solid rgba(0, 0, 0, .8);
+	border-width: 2px;
+}
+
+.post-heading-container-block 
+{
+	width: 812px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+======================
+MAIN/HEADING/ICONSTYLE
+======================
+*/
+
+.view
+{
+	width: 200px;
+	height: 100px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-bottom: 2px;
+	float: left;
+	position: relative;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+	background: #000;
+	perspective: 500px;
+}
+
+.view .captionView
+{
+	color: #fff;
+	/*color: rgba(0, 188, 255, 1);*/
+	font-size: 25px;
+	position: absolute;
+	z-index: 1;
+	right: 5px;
+	transition: .8s;
+	/*text-shadow: 0 0 10px #0D0D0D, 0 0 10px #000000, 0 0 30px #2D1738, 0 0 30px #3E2643;*/
+	text-shadow: 0px 0px 13px rgba(0, 0, 0, 1), 0px 0px 13px rgba(0, 0, 0, 1), 3px 2px 8px rgba(0, 0, 0, 1);
+}
+
+.view:hover .captionView
+{
+	opacity: 0;
+	transition-duration: 500ms;
+	transform: translateX(-60px);
+}
+
+.view .slice
+{
+	width: 40px;
+	height: 100%;
+	z-index: 100;
+	transform-style: preserve-3d;
+	transform-origin: left center;
+	transition: transform 150ms ease-in-out;		
+}
+
+.view div.view-back
+{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	z-index: 0;
+	background: linear-gradient(left, #0a0a0a 0%,#666666 100%);
+}
+
+.view-back a
+{
+	display: bock;
+	color: rgba(255,255,255,0.4);
+	position: absolute;
+	right: 8px;
+	bottom: 30px;
+	border: 2px solid rgba(255,255,255,0.3);
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	line-height: 22px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 7px;
+	font-size: 30px;
+	
+}
+
+.view-back a:hover
+{
+	color: #fff;
+	border-color: #fff;
+}
+
+.view .s2, 
+.view .s3, 
+.view .s4, 
+.view .s5
+{
+	transform: translate3d(40px,0,0);
+}
+.view .s1
+{
+	background-position: 0px 0px;
+}
+.view .s2
+{
+	background-position: -40px 0px;
+}
+.view .s3
+{
+	background-position: -80px 0px;
+}
+.view .s4
+{
+	background-position: -120px 0px;
+}
+.view .s5
+{
+	background-position: -160px 0px;
+}
+
+.view .overlay
+{
+	width: 40px;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	transition: opacity 150ms ease-in-out;
+}
+
+.view:hover .overlay
+{
+	opacity: 1;
+}
+
+.view img
+{
+	position: absolute;
+	z-index: 0;
+	transition: left 0.3s ease-in-out;
+}
+/*
+======================
+FOOTER
+======================
+*/
+.footer
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 100px;
+	border-radius: 0 0 8px 8px;
+}
+
+.footerModule1
+{
+	width: 98px;
+	height: 64px;
+	margin-top: 18px;
+	margin-left: 20px;
+	cursor: default;
+}
+
+.footerIqon
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../content/IqonSocialNetwork.png');
+	background-size: 196px 30px;
+}
+
+.footerIqon:hover
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../content/IqonSocialNetwork1.png');
+	background-size: 196px 30px;
+}
+
+.footerIqon:nth-child(1)
+{
+	background-position: 0px 0;
+}
+
+.footerIqon:nth-child(2)
+{
+	background-position: -33px 0;
+}
+
+.footerIqon:nth-child(3)
+{
+	background-position: -66px 0;
+}
+
+.footerIqon:nth-child(4)
+{
+	background-position: -99px 0;
+}
+
+.footerIqon:nth-child(5)
+{
+	background-position: -133px 0;
+}
+
+.footerIqon:nth-child(6)
+{
+	background-position: -166px 0;
+}
+
+.footerModule2 span
+{
+	float: right;
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
+}
+
+/*
+======================
+WIDGET
+======================
+*/
+
+.widget-module
+{
+	width: 250px;
+	height: 420px;
+	background: #fff;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
