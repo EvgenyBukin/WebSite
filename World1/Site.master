@@ -226,7 +226,6 @@
 									</div>
 									<img src="content/animeGames.png" />
 									<span class="captionView">AnimeGames</span>
-
 								</div>
 							</div>
 							<script type="text/javascript">	
@@ -250,7 +249,22 @@
 			</main>
 			<aside class="sidebar">
 				<section class="widget">
-					<div class="widget-module"></div>
+					<div class="widget-module" id="widget-module_1"></div>
+                    <script>
+                        function show() {
+                            $.ajax({
+                                url: "content/news-content.txt",
+                                cache: false,
+                                success: function (html) {
+                                    $("#widget-module_1").html(html);
+                                }
+                            });
+                        }
+                        $(document).ready(function () {
+                            show();
+                            setInterval('show()', 1000);
+                        });
+                    </script>
 				</section>
 			</aside>
 			<footer class="footer">
