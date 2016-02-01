@@ -30,10 +30,10 @@ $(document).ready(function() {
 		var panel = $(this).next();
 		var visible = panel.attr("data-visible") == "visible";
 		if(visible){
-			panel.slideUp(1500);
+			panel.slideUp(1000);
 			panel.attr("data-visible", "hidden");
 		} else {
-			panel.slideDown(1500);
+			panel.slideDown(1000);
 			panel.attr("data-visible", "visible");
 		}
 	});
