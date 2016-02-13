@@ -1,0 +1,9 @@
+<div class="widget-news-content">
+	<span>TEST TEST TEST TEST</span>
+</div>
+<div class="widget-news-content">
+	<span>TEST TEST TEST TEST</span>
+</div>
+<div class="widget-news-content">
+	<span>TEST TEST TEST TEST</span>
+</div>

@@ -5,6 +5,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="shortcut icon" href="content/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="Styles/content.css" />
 		<link rel="stylesheet" type="text/css" href="Styles/media-queries.css" />
 		<link rel="stylesheet" type="text/css" href="Styles/contentStyle.css" />
@@ -17,6 +18,7 @@
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
+        <title>NewsAnime</title>
 	</head>
 	<body>
 		<div class="general-content">
@@ -249,22 +251,17 @@
 			</main>
 			<aside class="sidebar">
 				<section class="widget">
-					<div class="widget-module" id="widget-module_1"></div>
-                    <script>
-                        function show() {
-                            $.ajax({
-                                url: "content/news-content.txt",
-                                cache: false,
-                                success: function (html) {
-                                    $("#widget-module_1").html(html);
-                                }
-                            });
-                        }
-                        $(document).ready(function () {
-                            show();
-                            setInterval('show()', 1000);
-                        });
-                    </script>
+					<img class="widget-log" src="content/widget-log.png" alt="">
+					<div class="widget-log-txt"><span>Последнее в блогах</span></div>
+					<div class="widget-module">
+						<div class="widget-news-content"></div>
+						<div class="widget-news-content"></div>
+						<div class="widget-news-content"></div>
+						<div class="widget-news-content"></div>
+						<div class="widget-news-content"></div>
+						<div class="widget-news-content"></div>
+						<div class="widget-news-content"></div>
+					</div>
 				</section>
 			</aside>
 			<footer class="footer">
