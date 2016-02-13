@@ -1,0 +1,277 @@
+body
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url(../content/fon1_2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*
+======================
+NEWS CONTENT
+======================
+*/
+
+.newsModuleContent
+{
+	margin-top: 50px;
+	float: right;
+	height: 100%;
+	width: 1248px;
+	background: rgba(255, 255, 255, .7);
+	border-radius: 15px 0 0 0;
+}
+
+.newsContent_Module_1
+{
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-bottom: 40px;
+	width: 95%;
+	height: 400px;
+	background: rgba(0, 0, 0, .8);
+}
+
+.newsContent_Window
+{
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 60%;
+	height: 95%;
+	background: rgba(255, 255, 255, .6);
+}
+
+.newsContent_TitleModule
+{
+	float: right;
+	right: 20px;
+	width: 455px;
+	height: 400px;
+}
+
+.newsContent_Tile
+{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+	width: 450px;
+	height: 185px;
+	background: rgba(0, 0, 0, .8);
+}
+
+.newsSwitch div
+{
+	position: absolute;
+	margin-left: -60px;
+	width: 60px;
+	height: 60px;
+	background: red;
+	line-height: 60px;
+	text-align: center;
+}
+
+.newsSwitch div span
+{
+	vertical-align: baseline;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+.newsSwitch div:nth-child(1)
+{
+	margin-top: 60px;
+}
+
+.newsSwitch div:nth-child(2)
+{
+	margin-top: 125px;
+}
+
+.newsSwitch div:nth-child(3)
+{
+	margin-top: 190px;
+}
+
+.newsSwitch div:nth-child(4)
+{
+	margin-top: 255px;
+}
+
+.newsSwitch div:nth-child(5)
+{
+	margin-top: 320px;
+}
+
+.newsSwitch div:nth-child(6)
+{
+	margin-top: 385px;
+}
+
+.newsSwitch .active
+{
+	background: rgb(247, 96, 5);
+}
+
+/*
+======================
+NEWS HEADER
+======================
+*/
+
+.logWebsite
+{
+	float: left;
+	margin-left: 100px;
+	background: url(../content/logWebsite.png) no-repeat;
+	background-size: 270px 270px;
+	width: 270px;
+	height: 270px;
+}
+
+.newsHeader
+{
+	height: 272px;
+	background: black;
+	background-size: 1280px 272px;
+}
+
+/*
+======================
+NEWS NAV
+======================
+*/
+
+nav
+{
+	height: 40px;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+}
+
+.main-nav
+{
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+.main-nav div
+{
+	display: inline-block;
+}
+
+.main-nav a
+{
+	position: relative;
+	z-index: 100;
+	font-weight: bold;
+	color: #fff;
+	padding: 14px 30px;
+	text-decoration: none;
+	/*border-radius: 25px 0 25px 0;*/
+	background-image: linear-gradient(to bottom, rgba(162, 44, 41, 1), rgba(0, 0, 0, .4));
+}
+
+.main-nav a:hover
+{
+	transition: 3s;
+	transition: opacity 0.3s, linear 0.3s;
+	color: #fff;
+	background: #474747;
+	background: linear-gradient(-90deg, #000, #393939);
+	box-shadow: 0 0 5px #E5A09A, 0 0 5px #F70000, 0 0 20px #A93331, 0 0 30px #B86D6D;
+}
+
+/*
+======================
+NEWS FOOTER
+======================
+*/
+
+footer
+{
+	clear: both;
+	background: linear-gradient(to bottom, rgba(17, 15, 30, .7), rgba(22, 22, 19, .8));
+	width: 850px;
+	height: 100px;
+}
+
+.footer
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 100px;
+	border-radius: 0 0 8px 8px;
+}
+
+.footerModule1
+{
+	width: 99px;
+	height: 64px;
+	margin-top: 18px;
+	margin-left: 20px;
+	cursor: default;
+}
+
+.footerIqon
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../content/IqonSocialNetwork.png');
+	background-size: 196px 30px;
+}
+
+.footerIqon:hover
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url('../content/IqonSocialNetwork1.png');
+	background-size: 196px 30px;
+}
+
+.footerIqon:nth-child(1)
+{
+	background-position: 0px 0;
+}
+
+.footerIqon:nth-child(2)
+{
+	background-position: -33px 0;
+}
+
+.footerIqon:nth-child(3)
+{
+	background-position: -66px 0;
+}
+
+.footerIqon:nth-child(4)
+{
+	background-position: -99px 0;
+}
+
+.footerIqon:nth-child(5)
+{
+	background-position: -133px 0;
+}
+
+.footerIqon:nth-child(6)
+{
+	background-position: -166px 0;
+}
+
+.footerModule2 span
+{
+	float: right;
+	color: #fff;
+	font-family: arial;
+	font-size: 12px;
+}
